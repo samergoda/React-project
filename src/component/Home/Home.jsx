@@ -29,15 +29,15 @@ let dispatch = useDispatch()
   }, []);
 
   const handleAddItem = (item) => {
-    const isItemExist = selectedItems.some((selectedItem) => selectedItem.id === item.id);
-    
-    if (isItemExist) {
-      alert('This item has already been added.')
-      return false
-    } else {
-      setSelectedItems([...selectedItems, item]);
+    // const isItemExist = selectedItems.some((selectedItem) => selectedItem.id === item.id);
+    setSelectedItems([...selectedItems, item]);
       return true
-    }
+    // if (isItemExist) {
+    //   alert('This item has already been added.')
+    //   return false
+    // } else {
+      
+    // }
   }
 
 

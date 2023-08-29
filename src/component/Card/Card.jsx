@@ -53,7 +53,7 @@ export default function Card(){
                   <p className="my-4  ">
                   Event Saved!
                   </p>
-                  <p>{counter}</p>
+                  <p>$ {counter}</p>
                   
                 </div>
                 
